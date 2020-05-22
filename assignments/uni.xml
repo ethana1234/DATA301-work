@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<University>
+    <Student studentID="eagranof" courses="csc448 data301 csc492">
+        <Name>Ethan Agranoff</Name>
+        <Address>
+            <Street>Mulberry St.</Street>
+            <City>Denver</City>
+        </Address>
+    </Student>
+    <Student studentID="nabishop" courses="csc448 csc445 csc366">
+        <Name>Nick Bishop</Name>
+        <Address>
+            <Street>Wadsworth Blvd.</Street>
+            <City>Seattle</City>
+        </Address>
+    </Student>
+    <Student studentID="altschop" courses="csc448 csc309 csc492">
+        <Name>Alex Tschopp</Name>
+        <Address>
+            <Street>Main St.</Street>
+            <City>Phoenix</City>
+        </Address>
+    </Student>
+    <Teacher employeeID="tblee" courses="csc366 csc309">
+        <Name>Tim Berners-Lee</Name>
+        <Address>
+            <Street>Denmark Hill</Street>
+            <City>London</City>
+        </Address>
+    </Teacher>
+    <Teacher employeeID="ltorvalds" courses="csc448 csc492">
+        <Name>Linus Torvalds</Name>
+        <Address>
+            <Street>Kaivokatu</Street>
+            <City>Helsinki</City>
+        </Address>
+    </Teacher>
+    <Teacher employeeID="aturing" courses="csc445 data301">
+        <Name>Alan Turing</Name>
+        <Address>
+            <Street>Hyde Park Pl.</Street>
+            <City>Manchester</City>
+        </Address>
+    </Teacher>
+    <Course course="csc448" teacher="ltorvalds" students="eagranof nabishop altschop"></Course>
+    <Course course="csc309" teacher="tblee" students="altschop"></Course>
+    <Course course="csc366" teacher="tblee" students="nabishop"></Course>
+    <Course course="csc492" teacher="ltorvalds" students="eagranof altschop"></Course>
+    <Course course="csc445" teacher="aturing" students="nabishop"></Course>
+    <Course course="data301" teacher="aturing" students="eagranof"></Course>
+</University>
